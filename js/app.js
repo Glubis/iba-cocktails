@@ -222,18 +222,124 @@ function wireControls() {
   copyButton.addEventListener("click", copyResultsJson);
 }
 
-async function init() {
-  const [ingredientsResponse, recipesResponse] = await Promise.all([
-    fetch("./ingredients.json"),
-    fetch("./recipes.json"),
-  ]);
+function parseCsvText(csvText) {
+  const rows = [];
+  let current = "";
+  let row = [];
+  let inQuotes = false;
 
-  if (!ingredientsResponse.ok || !recipesResponse.ok) {
-    throw new Error("Failed to load cocktail data.");
+  for (let i = 0; i < csvText.length; i += 1) {
+    const char = csvText[i];
+
+    if (inQuotes) {
+      if (char === '"') {
+        if (csvText[i + 1] === '"') {
+          current += '"';
+          i += 1;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        current += char;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      inQuotes = true;
+      continue;
+    }
+
+    if (char === ',') {
+      row.push(current);
+      current = "";
+      continue;
+    }
+
+    if (char === '\n') {
+      row.push(current);
+      rows.push(row);
+      row = [];
+      current = "";
+      continue;
+    }
+
+    if (char === '\r') {
+      continue;
+    }
+
+    current += char;
   }
 
-  const baseIngredients = await ingredientsResponse.json();
-  recipes = await recipesResponse.json();
+  if (current !== "" || row.length > 0) {
+    row.push(current);
+    rows.push(row);
+  }
+
+  return rows;
+}
+
+function parseListField(raw) {
+  if (!raw) return [];
+  const cleaned = raw.trim();
+
+  if (cleaned.startsWith("[") && cleaned.endsWith("]")) {
+    try {
+      return JSON.parse(cleaned.replace(/'/g, '"'));
+    } catch (e) {
+      const inside = cleaned.replace(/^\[|\]$/g, "");
+      return inside
+        .split(/,(?![^\[]*\])/) 
+        .map((s) => s.replace(/^\s*'?|"?|'?\s*$|"?$/g, "").trim())
+        .filter(Boolean);
+    }
+  }
+
+  return [cleaned];
+}
+
+async function init() {
+  // Load cocktails from the repository CSV.
+  const resp = await fetch("./final_cocktails.csv");
+  if (!resp.ok) {
+    throw new Error("Failed to load final_cocktails.csv");
+  }
+
+  const csvText = await resp.text();
+  const csvRows = parseCsvText(csvText);
+  const headers = csvRows[0] || [];
+  const rows = csvRows.slice(1).filter((row) => row.length > 0);
+
+  const mappedRows = rows.map((row) => {
+    const obj = {};
+    for (let i = 0; i < headers.length; i += 1) {
+      obj[headers[i]] = row[i] ?? "";
+    }
+    return obj;
+  });
+
+  const allIngredients = new Set();
+
+  recipes = mappedRows.map((row) => {
+    const ingList = parseListField(row.ingredients);
+    for (const i of ingList) {
+      allIngredients.add(i.trim());
+    }
+
+    return {
+      name: row.name,
+      category: row.category || undefined,
+      ingredients: ingList.map((n) => ({ ingredient: n.trim() })),
+      garnish: row.garnish || undefined,
+      preparation: row.instructions || row.preparation || undefined,
+    };
+  });
+
+  const baseIngredients = {};
+  for (const i of allIngredients) {
+    baseIngredients[i] = { abv: 0, taste: null };
+  }
+
   catalog = buildCatalog(baseIngredients, recipes);
   catalogByLength = buildCatalogSortedByLength(catalog);
 

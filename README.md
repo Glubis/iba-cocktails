@@ -10,7 +10,7 @@ The **Cocktail Pantry Matcher** is a static HTML + JavaScript app in this repo.
 Select the ingredients you have on hand and see which IBA cocktails you can make,
 grouped by category.
 
-Because the app loads JSON via `fetch()`, it must be served over HTTP (opening
+Because the app loads CSV via `fetch()`, it must be served over HTTP (opening
 `index.html` directly as a `file://` URL will not work).
 
 ```powershell
@@ -27,8 +27,8 @@ for manual saving.
 
 Prompt:
 
-```Analyze index.html, and the js dir. Right now, it reads ingredients.json and recipes.json. Instead, It should init from final_cocktails_head.csv
+```Analyze index.html, and the js dir. Right now, it reads ingredients.json and recipes.json. Instead, It should init from final_cocktails.csv
 ```
 
-Note: final_cocktails_head.csv is a sample head to not blow up the ai context. final_cocktails.csv is what it should really load from.
+Note: `final_cocktails_head.csv` is a sample head to not blow up the AI context. The app now initializes from `final_cocktails.csv`.
 
