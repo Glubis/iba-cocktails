@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Pantry Matcher</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cocktail Pantry Matcher</h1>
+      <p>Select the ingredients you have on hand to see which IBA cocktails you can make.</p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Your Ingredients</h2>
+          <div class="controls">
+            <button type="button" id="select-all">Select all</button>
+            <button type="button" id="clear-all">Clear all</button>
+          </div>
+        </div>
+        <form id="ingredients-form" class="ingredients-grid"></form>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Ready to Make</h2>
+        </div>
+        <div id="ready-section"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Missing Ingredients</h2>
+        </div>
+        <div id="missing-section"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Export</h2>
+        </div>
+        <button type="button" id="copy-json">Copy JSON</button>
+        <textarea id="json-fallback" hidden readonly rows="12" aria-label="JSON export fallback"></textarea>
+      </section>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
