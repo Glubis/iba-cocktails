@@ -22,3 +22,13 @@ Then open [http://localhost:8080](http://localhost:8080).
 
 Use **Copy JSON** to copy your selected ingredients and match results as JSON
 for manual saving.
+
+## Followup work
+
+Prompt:
+
+```Analyze index.html, and the js dir. Right now, it reads ingredients.json and recipes.json. Instead, It should init from final_cocktails_head.csv
+```
+
+Note: final_cocktails_head.csv is a sample head to not blow up the ai context. final_cocktails.csv is what it should really load from.
+
