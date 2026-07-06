@@ -1,0 +1,3866 @@
+{
+  "selectedIngredients": [
+    "",
+    "151 proof rum",
+    "7-up",
+    "absinthe",
+    "absolut vodka",
+    "agave syrup",
+    "allspice",
+    "amaretto",
+    "añejo rum",
+    "angostura bitters",
+    "aperol",
+    "apple juice",
+    "black pepper",
+    "blended scotch",
+    "blended whiskey",
+    "blue curacao",
+    "bourbon",
+    "brandy",
+    "brown sugar",
+    "carbonated soft drink",
+    "carbonated water",
+    "chambord raspberry liqueur",
+    "cherries",
+    "cherry",
+    "cherry juice",
+    "cherry liqueur",
+    "cinnamon",
+    "club soda",
+    "coca-cola",
+    "cocoa powder",
+    "coffee",
+    "coffee liqueur",
+    "cointreau",
+    "cranberry juice",
+    "cream",
+    "crown royal",
+    "dark rum",
+    "demerara sugar",
+    "dr. pepper",
+    "dry vermouth",
+    "espresso",
+    "fresca",
+    "fresh lemon juice",
+    "fresh lime juice",
+    "ginger ale",
+    "ginger beer",
+    "gold rum",
+    "green chartreuse",
+    "grenadine",
+    "half-and-half",
+    "heavy cream",
+    "honey",
+    "honey syrup",
+    "hot sauce",
+    "ice",
+    "iced tea",
+    "irish whiskey",
+    "jack daniels",
+    "jim beam",
+    "kahlua",
+    "lemon",
+    "lemon juice",
+    "lemon peel",
+    "lemon-lime soda",
+    "lemonade",
+    "light cream",
+    "light rum",
+    "lime",
+    "lime juice",
+    "lime peel",
+    "limeade",
+    "malibu rum",
+    "maple syrup",
+    "maraschino cherry",
+    "maraschino liqueur",
+    "melon liqueur",
+    "mezcal",
+    "midori melon liqueur",
+    "milk",
+    "mint",
+    "mint syrup",
+    "mountain dew",
+    "olive",
+    "orange bitters",
+    "orange juice",
+    "orange peel",
+    "orgeat syrup",
+    "peach bitters",
+    "peach schnapps",
+    "peachtree schnapps",
+    "pepper",
+    "pepsi cola",
+    "pineapple",
+    "pineapple juice",
+    "pineapple syrup",
+    "powdered sugar",
+    "raspberry vodka",
+    "red chili flakes",
+    "rosso vermouth",
+    "rum",
+    "rye whiskey",
+    "salt",
+    "scotch",
+    "soda water",
+    "sour mix",
+    "southern comfort",
+    "soy sauce",
+    "spiced rum",
+    "sprite",
+    "st. germain",
+    "sugar",
+    "sugar syrup",
+    "sweet and sour",
+    "sweet vermouth",
+    "tabasco sauce",
+    "tea",
+    "tennessee whiskey",
+    "tequila",
+    "triple sec",
+    "vanilla",
+    "vanilla extract",
+    "vermouth",
+    "vodka",
+    "water",
+    "whiskey",
+    "whisky",
+    "white rum",
+    "wild turkey"
+  ],
+  "results": {
+    "readyToMake": {
+      "Cocktail": [
+        "Afterglow",
+        "Applejack",
+        "Brooklyn",
+        "Cosmopolitan",
+        "Cream Soda",
+        "Espresso Martini",
+        "Honey Bee",
+        "Lemon Drop",
+        "Manhattan",
+        "Mary Pickford",
+        "Mojito",
+        "Mojito Extra",
+        "Old Fashioned",
+        "Orangeade",
+        "Planter’s Punch",
+        "Rail Splitter",
+        "Shark Attack",
+        "Tequila Sunrise",
+        "The Jimmy Conway",
+        "Tipperary",
+        "Vodka Lemon",
+        "Vodka Slime"
+      ],
+      "Cocoa": [
+        "Nuked Hot Chocolate"
+      ],
+      "Coffee / Tea": [
+        "Cafe Savoy",
+        "Frappé",
+        "Fuzzy Asshole",
+        "Iced Coffee",
+        "Iced Coffee Fillip",
+        "Kioki Coffee",
+        "Melya"
+      ],
+      "Homemade Liqueur": [
+        "Coffee Liqueur",
+        "Tia-Maria"
+      ],
+      "Ordinary Drink": [
+        "Adam",
+        "Affinity",
+        "Autodafé",
+        "Caipirissima",
+        "Casa Blanca",
+        "City Slicker",
+        "Cuba Libra",
+        "Cuba Libre",
+        "Daiquiri",
+        "Dark and Stormy",
+        "Dry Rob Roy",
+        "Frozen Daiquiri",
+        "Frozen Mint Daiquiri",
+        "Frozen Pineapple Daiquiri",
+        "Godchild",
+        "Godfather",
+        "Godmother",
+        "Grand Blue",
+        "Grim Reaper",
+        "Happy Skipper",
+        "Havana Cocktail",
+        "Highland Fling Cocktail",
+        "Ice Pick",
+        "Imperial Fizz",
+        "Jackhammer",
+        "Kamikaze",
+        "Mai Tai",
+        "Margarita",
+        "Mint Julep",
+        "Orange Push-up",
+        "Popped cherry",
+        "Pysch Vitamin Light",
+        "Rum Cooler",
+        "Rum Screwdriver",
+        "Rum Toddy",
+        "Scooter",
+        "Scotch Sour",
+        "Screwdriver",
+        "Space Odyssey",
+        "Tequila Sour",
+        "Van Vleet",
+        "Vodka Martini",
+        "Whiskey Sour",
+        "White Russian",
+        "Ziemes Martini Apfelsaft"
+      ],
+      "Other / Unknown": [
+        "Bible Belt",
+        "Jack's Vanilla Coke",
+        "Limeade",
+        "Orange Whip",
+        "Raspberry Cooler"
+      ],
+      "Punch / Party Drink": [
+        "Moscow Mule",
+        "Mudslinger",
+        "Planter's Punch",
+        "Zizi Coin-coin"
+      ],
+      "Shake": [
+        "Jamaica Kiss"
+      ],
+      "Shot": [
+        "ACID",
+        "Moranguito",
+        "Orange Crush",
+        "Red Snapper",
+        "Royal Flush",
+        "Shot-gun",
+        "Tequila Slammer",
+        "Tequila Surprise",
+        "Turkeyball",
+        "Zipperhead"
+      ],
+      "Soft Drink": [
+        "Coke and Drops"
+      ]
+    },
+    "missingIngredients": {
+      "Beer": [
+        {
+          "name": "Buccaneer",
+          "have": [],
+          "missing": [
+            "bacardi limon",
+            "corona"
+          ]
+        },
+        {
+          "name": "Campari Beer",
+          "have": [],
+          "missing": [
+            "campari",
+            "lager"
+          ]
+        },
+        {
+          "name": "Diesel",
+          "have": [],
+          "missing": [
+            "blackcurrant cordial",
+            "cider",
+            "lager"
+          ]
+        },
+        {
+          "name": "Irish Russian",
+          "have": [
+            "coca-cola",
+            "kahlua",
+            "vodka"
+          ],
+          "missing": [
+            "guinness stout"
+          ]
+        },
+        {
+          "name": "Limona Corona",
+          "have": [],
+          "missing": [
+            "bacardi limon",
+            "corona"
+          ]
+        },
+        {
+          "name": "Lunch Box",
+          "have": [
+            "amaretto",
+            "orange juice"
+          ],
+          "missing": [
+            "beer"
+          ]
+        },
+        {
+          "name": "Winter Rita",
+          "have": [
+            "lime juice",
+            "orange juice",
+            "salt",
+            "tequila"
+          ],
+          "missing": [
+            "campari",
+            "rosemary syrup"
+          ]
+        }
+      ],
+      "Cocktail": [
+        {
+          "name": "A1",
+          "have": [
+            "grenadine",
+            "lemon juice"
+          ],
+          "missing": [
+            "gin",
+            "grand marnier"
+          ]
+        },
+        {
+          "name": "Ace",
+          "have": [
+            "grenadine",
+            "heavy cream",
+            "milk"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Addison",
+          "have": [
+            "vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Aviation",
+          "have": [
+            "lemon juice",
+            "maraschino liqueur"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Bahama Mama",
+          "have": [
+            "dark rum",
+            "grenadine",
+            "orange juice",
+            "pineapple juice",
+            "rum",
+            "sweet and sour"
+          ],
+          "missing": [
+            "banana liqueur"
+          ]
+        },
+        {
+          "name": "Bijou",
+          "have": [
+            "green chartreuse",
+            "orange bitters",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Bora Bora",
+          "have": [
+            "grenadine",
+            "lemon juice",
+            "pineapple juice"
+          ],
+          "missing": [
+            "passion fruit juice"
+          ]
+        },
+        {
+          "name": "Brigadier",
+          "have": [
+            "green chartreuse"
+          ],
+          "missing": [
+            "cherry heering",
+            "hot chocolate"
+          ]
+        },
+        {
+          "name": "Broadside",
+          "have": [
+            "151 proof rum",
+            "ice",
+            "scotch"
+          ],
+          "missing": [
+            "bitters",
+            "wormwood"
+          ]
+        },
+        {
+          "name": "Corn n Oil",
+          "have": [
+            "añejo rum",
+            "angostura bitters",
+            "lime"
+          ],
+          "missing": [
+            "blackstrap rum",
+            "falernum"
+          ]
+        },
+        {
+          "name": "Corpse Reviver",
+          "have": [
+            "absinthe",
+            "lemon juice",
+            "triple sec"
+          ],
+          "missing": [
+            "gin",
+            "lillet blanc"
+          ]
+        },
+        {
+          "name": "Dark Caipirinha",
+          "have": [
+            "demerara sugar",
+            "lime"
+          ],
+          "missing": [
+            "cachaca"
+          ]
+        },
+        {
+          "name": "Death in the Afternoon",
+          "have": [
+            "absinthe"
+          ],
+          "missing": [
+            "champagne"
+          ]
+        },
+        {
+          "name": "Dirty Martini",
+          "have": [
+            "dry vermouth",
+            "lemon",
+            "olive",
+            "vodka"
+          ],
+          "missing": [
+            "olive brine"
+          ]
+        },
+        {
+          "name": "Dry Martini",
+          "have": [
+            "dry vermouth",
+            "olive"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Duchamp's Punch",
+          "have": [
+            "angostura bitters",
+            "lime juice",
+            "pepper",
+            "pineapple syrup",
+            "st. germain"
+          ],
+          "missing": [
+            "lavender",
+            "pisco"
+          ]
+        },
+        {
+          "name": "Elderflower Caipirinha",
+          "have": [
+            "lime"
+          ],
+          "missing": [
+            "cachaca",
+            "elderflower cordial"
+          ]
+        },
+        {
+          "name": "Empellón Cocina's Fat-Washed Mezcal",
+          "have": [
+            "coffee liqueur",
+            "mezcal"
+          ],
+          "missing": [
+            "chocolate liqueur"
+          ]
+        },
+        {
+          "name": "Espresso Rumtini",
+          "have": [
+            "coffee",
+            "espresso",
+            "rum"
+          ],
+          "missing": [
+            "vanilla syrup"
+          ]
+        },
+        {
+          "name": "Figgy Thyme",
+          "have": [
+            "angostura bitters",
+            "honey",
+            "vodka"
+          ],
+          "missing": [
+            "figs",
+            "thyme",
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Flaming Lamborghini",
+          "have": [
+            "blue curacao",
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "French Martini",
+          "have": [
+            "pineapple juice",
+            "vodka"
+          ],
+          "missing": [
+            "raspberry liqueur"
+          ]
+        },
+        {
+          "name": "French Negroni",
+          "have": [
+            "orange peel",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin",
+            "lillet"
+          ]
+        },
+        {
+          "name": "Frosé",
+          "have": [
+            "lemon juice",
+            "sugar"
+          ],
+          "missing": [
+            "rose",
+            "strawberries"
+          ]
+        },
+        {
+          "name": "Funk and Soul",
+          "have": [
+            "lemon",
+            "rum",
+            "soda water"
+          ],
+          "missing": [
+            "apricot nectar",
+            "pomegranate juice"
+          ]
+        },
+        {
+          "name": "Gagliardo",
+          "have": [
+            "lemon juice"
+          ],
+          "missing": [
+            "galliano",
+            "peach vodka",
+            "sirup of roses"
+          ]
+        },
+        {
+          "name": "Gimlet",
+          "have": [
+            "lime",
+            "lime juice",
+            "sugar syrup"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin and Soda",
+          "have": [
+            "lime",
+            "soda water"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Lemon",
+          "have": [
+            "ice",
+            "lemon juice",
+            "lemon peel"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Rickey",
+          "have": [
+            "grenadine",
+            "lemon",
+            "lime",
+            "soda water"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Tonic",
+          "have": [
+            "ice",
+            "lemon peel"
+          ],
+          "missing": [
+            "gin",
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Greyhound",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Hot Toddy",
+          "have": [
+            "cinnamon",
+            "honey",
+            "lemon",
+            "whiskey"
+          ],
+          "missing": [
+            "cloves"
+          ]
+        },
+        {
+          "name": "Hunter's Moon",
+          "have": [
+            "lemonade",
+            "maraschino cherry",
+            "sugar syrup",
+            "vermouth"
+          ],
+          "missing": [
+            "blackberries"
+          ]
+        },
+        {
+          "name": "Imperial Cocktail",
+          "have": [
+            "aperol",
+            "lime juice"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Irish Curdling Cow",
+          "have": [
+            "bourbon",
+            "orange juice",
+            "vodka"
+          ],
+          "missing": [
+            "baileys irish cream"
+          ]
+        },
+        {
+          "name": "Jitterbug",
+          "have": [
+            "grenadine",
+            "lime juice",
+            "soda water",
+            "sugar",
+            "sugar syrup",
+            "vodka"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Kiwi Martini",
+          "have": [
+            "sugar syrup",
+            "vodka"
+          ],
+          "missing": [
+            "kiwi"
+          ]
+        },
+        {
+          "name": "Lazy Coconut Paloma",
+          "have": [
+            "soda water"
+          ],
+          "missing": [
+            "coconut liqueur",
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Lemon Elderflower Spritzer",
+          "have": [
+            "fresh lemon juice",
+            "soda water",
+            "vodka"
+          ],
+          "missing": [
+            "elderflower cordial"
+          ]
+        },
+        {
+          "name": "Mango Mojito",
+          "have": [
+            "ice",
+            "lime",
+            "mint",
+            "soda water",
+            "white rum"
+          ],
+          "missing": [
+            "mango"
+          ]
+        },
+        {
+          "name": "Martinez 2",
+          "have": [
+            "angostura bitters",
+            "maraschino liqueur",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Martini",
+          "have": [
+            "dry vermouth",
+            "olive"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Mauresque",
+          "have": [
+            "orgeat syrup",
+            "water"
+          ],
+          "missing": [
+            "ricard"
+          ]
+        },
+        {
+          "name": "Miami Vice",
+          "have": [
+            "151 proof rum"
+          ],
+          "missing": [
+            "daiquiri mix",
+            "pina colada mix"
+          ]
+        },
+        {
+          "name": "Michelada",
+          "have": [
+            "hot sauce",
+            "lime juice",
+            "soy sauce"
+          ],
+          "missing": [
+            "beer",
+            "tomato juice",
+            "worcestershire sauce"
+          ]
+        },
+        {
+          "name": "Midnight Mint",
+          "have": [
+            "cream"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "white creme de menthe"
+          ]
+        },
+        {
+          "name": "Munich Mule",
+          "have": [
+            "ginger beer",
+            "lemon",
+            "lime juice"
+          ],
+          "missing": [
+            "cucumber",
+            "gin"
+          ]
+        },
+        {
+          "name": "New York Lemonade",
+          "have": [
+            "club soda",
+            "lemon juice"
+          ],
+          "missing": [
+            "absolut citron",
+            "grand marnier"
+          ]
+        },
+        {
+          "name": "Oatmeal Cookie",
+          "have": [
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "butterscotch schnapps",
+            "goldschlager",
+            "jagermeister"
+          ]
+        },
+        {
+          "name": "Old Pal",
+          "have": [
+            "dry vermouth",
+            "rye whiskey"
+          ],
+          "missing": [
+            "campari"
+          ]
+        },
+        {
+          "name": "Orange Rosemary Collins",
+          "have": [
+            "lemon juice",
+            "orange juice",
+            "orange peel",
+            "soda water"
+          ],
+          "missing": [
+            "gin",
+            "rosemary",
+            "rosemary syrup"
+          ]
+        },
+        {
+          "name": "Paloma",
+          "have": [
+            "tequila"
+          ],
+          "missing": [
+            "grape soda"
+          ]
+        },
+        {
+          "name": "Passion Fruit Martini",
+          "have": [
+            "sugar syrup",
+            "vodka"
+          ],
+          "missing": [
+            "passion fruit juice"
+          ]
+        },
+        {
+          "name": "Pegu Club",
+          "have": [
+            "angostura bitters",
+            "lime juice",
+            "orange bitters"
+          ],
+          "missing": [
+            "gin",
+            "orange curacao"
+          ]
+        },
+        {
+          "name": "Penicillin",
+          "have": [
+            "blended scotch",
+            "honey syrup",
+            "lemon juice"
+          ],
+          "missing": [
+            "ginger syrup",
+            "islay single malt scotch"
+          ]
+        },
+        {
+          "name": "Pineapple Paloma",
+          "have": [
+            "fresh lime juice",
+            "lime",
+            "pepper",
+            "pineapple juice",
+            "tequila"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Pink Moon",
+          "have": [
+            "lime juice"
+          ],
+          "missing": [
+            "blackberries",
+            "coconut liqueur",
+            "elderflower cordial",
+            "gin"
+          ]
+        },
+        {
+          "name": "Pisco Sour",
+          "have": [
+            "ice",
+            "lemon juice",
+            "sugar"
+          ],
+          "missing": [
+            "egg white",
+            "pisco"
+          ]
+        },
+        {
+          "name": "Pornstar Martini",
+          "have": [
+            "lime",
+            "vodka"
+          ],
+          "missing": [
+            "passion fruit juice",
+            "passoa",
+            "prosecco"
+          ]
+        },
+        {
+          "name": "Pure Passion",
+          "have": [
+            "lime juice",
+            "mint",
+            "peach bitters",
+            "rum"
+          ],
+          "missing": [
+            "passion fruit syrup",
+            "passoa"
+          ]
+        },
+        {
+          "name": "Ramos Gin Fizz",
+          "have": [
+            "cream",
+            "lemon juice",
+            "soda water",
+            "sugar syrup",
+            "vanilla extract"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Raspberry Julep",
+          "have": [
+            "bourbon",
+            "mint"
+          ],
+          "missing": [
+            "raspberry syrup"
+          ]
+        },
+        {
+          "name": "Rosemary Blue",
+          "have": [
+            "blue curacao"
+          ],
+          "missing": [
+            "gin",
+            "rosemary",
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Ruby Tuesday",
+          "have": [
+            "cranberry juice",
+            "grenadine"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Snowday",
+          "have": [
+            "angostura bitters",
+            "orange peel",
+            "vodka"
+          ],
+          "missing": [
+            "amaro montenegro",
+            "blood orange",
+            "ruby port"
+          ]
+        },
+        {
+          "name": "Spice 75",
+          "have": [
+            "allspice",
+            "lime juice",
+            "rum",
+            "sugar"
+          ],
+          "missing": [
+            "champagne",
+            "orange spiral"
+          ]
+        },
+        {
+          "name": "The Galah",
+          "have": [
+            "dark rum",
+            "lime juice",
+            "pineapple juice"
+          ],
+          "missing": [
+            "campari",
+            "creme de banane"
+          ]
+        },
+        {
+          "name": "The Last Word",
+          "have": [
+            "green chartreuse",
+            "lime juice",
+            "maraschino liqueur"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "The Laverstoke",
+          "have": [
+            "lime",
+            "mint",
+            "rosso vermouth"
+          ],
+          "missing": [
+            "elderflower cordial",
+            "gin",
+            "ginger",
+            "tonic water"
+          ]
+        },
+        {
+          "name": "The Philosopher",
+          "have": [
+            "lemon juice",
+            "melon liqueur",
+            "orange bitters"
+          ],
+          "missing": [
+            "gin",
+            "prosecco"
+          ]
+        },
+        {
+          "name": "Vesper",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "gin",
+            "lillet blanc"
+          ]
+        },
+        {
+          "name": "Vodka Tonic",
+          "have": [
+            "lemon peel",
+            "vodka"
+          ],
+          "missing": [
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Winter Paloma",
+          "have": [
+            "agave syrup",
+            "lime juice",
+            "pepper",
+            "tequila"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Yellow Bird",
+          "have": [
+            "lime juice",
+            "triple sec",
+            "white rum"
+          ],
+          "missing": [
+            "galliano"
+          ]
+        },
+        {
+          "name": "Zippy's Revenge",
+          "have": [
+            "amaretto",
+            "rum"
+          ],
+          "missing": [
+            "kool-aid"
+          ]
+        },
+        {
+          "name": "Zombie",
+          "have": [
+            "151 proof rum",
+            "angostura bitters",
+            "gold rum",
+            "grenadine",
+            "lime juice",
+            "rum"
+          ],
+          "missing": [
+            "pernod"
+          ]
+        },
+        {
+          "name": "Zorbatini",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "ouzo"
+          ]
+        }
+      ],
+      "Cocoa": [
+        {
+          "name": "Chocolate Drink",
+          "have": [
+            "milk",
+            "water"
+          ],
+          "missing": [
+            "chocolate"
+          ]
+        },
+        {
+          "name": "Drinking Chocolate",
+          "have": [
+            "cinnamon",
+            "heavy cream",
+            "milk",
+            "vanilla"
+          ],
+          "missing": [
+            "chocolate",
+            "whipped cream"
+          ]
+        },
+        {
+          "name": "Hot Chocolate to Die for",
+          "have": [
+            "half-and-half",
+            "vanilla extract"
+          ],
+          "missing": [
+            "butter",
+            "chocolate",
+            "marshmallows"
+          ]
+        },
+        {
+          "name": "Orange Scented Hot Chocolate",
+          "have": [
+            "espresso",
+            "milk",
+            "orange peel"
+          ],
+          "missing": [
+            "chocolate",
+            "nutmeg"
+          ]
+        }
+      ],
+      "Coffee / Tea": [
+        {
+          "name": "Afternoon",
+          "have": [
+            "coffee",
+            "cream",
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "frangelico"
+          ]
+        },
+        {
+          "name": "Danbooka",
+          "have": [
+            "coffee"
+          ],
+          "missing": [
+            "everclear"
+          ]
+        },
+        {
+          "name": "H.D.",
+          "have": [
+            "coffee",
+            "whisky"
+          ],
+          "missing": [
+            "baileys irish cream"
+          ]
+        },
+        {
+          "name": "Herbal flame",
+          "have": [
+            "tea"
+          ],
+          "missing": [
+            "hot damn"
+          ]
+        },
+        {
+          "name": "Hot Creamy Bush",
+          "have": [
+            "coffee",
+            "irish whiskey"
+          ],
+          "missing": [
+            "baileys irish cream"
+          ]
+        },
+        {
+          "name": "Irish Coffee",
+          "have": [
+            "coffee",
+            "irish whiskey",
+            "sugar"
+          ],
+          "missing": [
+            "whipped cream"
+          ]
+        },
+        {
+          "name": "Jamaican Coffee",
+          "have": [
+            "coffee",
+            "rum",
+            "water"
+          ],
+          "missing": [
+            "whipped cream"
+          ]
+        },
+        {
+          "name": "Kurant Tea",
+          "have": [
+            "sugar",
+            "tea"
+          ],
+          "missing": [
+            "absolut kurant"
+          ]
+        },
+        {
+          "name": "Masala Chai",
+          "have": [
+            "black pepper",
+            "cinnamon",
+            "milk",
+            "sugar",
+            "tea",
+            "water"
+          ],
+          "missing": [
+            "cardamom",
+            "cloves",
+            "ginger"
+          ]
+        },
+        {
+          "name": "Mocha-Berry",
+          "have": [
+            "chambord raspberry liqueur",
+            "cocoa powder",
+            "coffee"
+          ],
+          "missing": [
+            "whipped cream"
+          ]
+        },
+        {
+          "name": "Talos Coffee",
+          "have": [
+            "coffee"
+          ],
+          "missing": [
+            "grand marnier"
+          ]
+        },
+        {
+          "name": "Tennesee Mud",
+          "have": [
+            "amaretto",
+            "coffee",
+            "jack daniels"
+          ],
+          "missing": [
+            "whipped cream"
+          ]
+        },
+        {
+          "name": "Thai Coffee",
+          "have": [
+            "coffee",
+            "ice",
+            "sugar"
+          ],
+          "missing": [
+            "cardamom",
+            "coriander",
+            "whipping cream"
+          ]
+        },
+        {
+          "name": "Thai Iced Coffee",
+          "have": [
+            "coffee",
+            "cream",
+            "sugar"
+          ],
+          "missing": [
+            "cardamom"
+          ]
+        },
+        {
+          "name": "Thai Iced Tea",
+          "have": [
+            "ice",
+            "mint",
+            "tea",
+            "water"
+          ],
+          "missing": [
+            "condensed milk"
+          ]
+        },
+        {
+          "name": "Zorro",
+          "have": [],
+          "missing": [
+            "baileys irish cream",
+            "sambuca",
+            "white creme de menthe"
+          ]
+        }
+      ],
+      "Homemade Liqueur": [
+        {
+          "name": "Coffee-Vodka",
+          "have": [
+            "coffee",
+            "sugar",
+            "vanilla",
+            "vodka",
+            "water"
+          ],
+          "missing": [
+            "caramel coloring"
+          ]
+        },
+        {
+          "name": "Homemade Kahlua",
+          "have": [
+            "coffee",
+            "sugar",
+            "vanilla extract",
+            "vodka",
+            "water"
+          ],
+          "missing": [
+            "corn syrup"
+          ]
+        },
+        {
+          "name": "Irish Cream",
+          "have": [
+            "half-and-half",
+            "scotch"
+          ],
+          "missing": [
+            "chocolate syrup",
+            "coconut syrup",
+            "condensed milk"
+          ]
+        }
+      ],
+      "Ordinary Drink": [
+        {
+          "name": "A. J.",
+          "have": [],
+          "missing": [
+            "applejack",
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Abilene",
+          "have": [
+            "dark rum",
+            "orange juice"
+          ],
+          "missing": [
+            "peach nectar"
+          ]
+        },
+        {
+          "name": "Acapulco",
+          "have": [
+            "light rum",
+            "lime juice",
+            "mint",
+            "sugar",
+            "triple sec"
+          ],
+          "missing": [
+            "egg white"
+          ]
+        },
+        {
+          "name": "Affair",
+          "have": [
+            "club soda",
+            "cranberry juice",
+            "orange juice"
+          ],
+          "missing": [
+            "strawberry schnapps"
+          ]
+        },
+        {
+          "name": "After sex",
+          "have": [
+            "orange juice",
+            "vodka"
+          ],
+          "missing": [
+            "creme de banane"
+          ]
+        },
+        {
+          "name": "Alexander",
+          "have": [
+            "light cream"
+          ],
+          "missing": [
+            "creme de cacao",
+            "gin",
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "Allegheny",
+          "have": [
+            "bourbon",
+            "dry vermouth",
+            "lemon juice",
+            "lemon peel"
+          ],
+          "missing": [
+            "blackberry brandy"
+          ]
+        },
+        {
+          "name": "Almeria",
+          "have": [
+            "dark rum",
+            "kahlua"
+          ],
+          "missing": [
+            "egg white"
+          ]
+        },
+        {
+          "name": "Americano",
+          "have": [
+            "lemon peel",
+            "orange peel",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "campari"
+          ]
+        },
+        {
+          "name": "Applecar",
+          "have": [
+            "lemon juice",
+            "triple sec"
+          ],
+          "missing": [
+            "applejack"
+          ]
+        },
+        {
+          "name": "AT&T",
+          "have": [
+            "absolut vodka"
+          ],
+          "missing": [
+            "gin",
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Avalon",
+          "have": [
+            "apple juice",
+            "lemon juice",
+            "lemonade",
+            "vodka"
+          ],
+          "missing": [
+            "pisang ambon"
+          ]
+        },
+        {
+          "name": "Balmoral",
+          "have": [
+            "dry vermouth",
+            "scotch",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "bitters"
+          ]
+        },
+        {
+          "name": "Barracuda",
+          "have": [
+            "lime juice",
+            "pineapple juice",
+            "rum"
+          ],
+          "missing": [
+            "galliano",
+            "prosecco"
+          ]
+        },
+        {
+          "name": "Bellini",
+          "have": [
+            "peach schnapps"
+          ],
+          "missing": [
+            "champagne"
+          ]
+        },
+        {
+          "name": "Blackthorn",
+          "have": [
+            "lemon peel",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "sloe gin"
+          ]
+        },
+        {
+          "name": "Bluebird",
+          "have": [
+            "blue curacao",
+            "lemon peel",
+            "maraschino cherry",
+            "triple sec"
+          ],
+          "missing": [
+            "bitters",
+            "gin"
+          ]
+        },
+        {
+          "name": "Boomerang",
+          "have": [
+            "dry vermouth",
+            "maraschino cherry",
+            "maraschino liqueur"
+          ],
+          "missing": [
+            "bitters",
+            "gin"
+          ]
+        },
+        {
+          "name": "Boston Sour",
+          "have": [
+            "blended whiskey",
+            "cherry",
+            "lemon",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg white"
+          ]
+        },
+        {
+          "name": "Boxcar",
+          "have": [
+            "grenadine",
+            "lemon juice",
+            "triple sec"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Bramble",
+          "have": [
+            "lemon juice",
+            "sugar syrup"
+          ],
+          "missing": [
+            "creme de mure",
+            "gin"
+          ]
+        },
+        {
+          "name": "Caipirinha",
+          "have": [
+            "lime",
+            "sugar"
+          ],
+          "missing": [
+            "cachaca"
+          ]
+        },
+        {
+          "name": "Casino",
+          "have": [
+            "cherry",
+            "lemon juice",
+            "maraschino liqueur",
+            "orange bitters"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Casino Royale",
+          "have": [
+            "lemon juice",
+            "maraschino liqueur",
+            "orange bitters"
+          ],
+          "missing": [
+            "egg yolk",
+            "gin"
+          ]
+        },
+        {
+          "name": "Cherry Rum",
+          "have": [
+            "light cream",
+            "light rum"
+          ],
+          "missing": [
+            "cherry brandy"
+          ]
+        },
+        {
+          "name": "Chicago Fizz",
+          "have": [
+            "carbonated water",
+            "lemon",
+            "light rum",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg white",
+            "port"
+          ]
+        },
+        {
+          "name": "Clove Cocktail",
+          "have": [
+            "sweet vermouth"
+          ],
+          "missing": [
+            "sloe gin",
+            "wine"
+          ]
+        },
+        {
+          "name": "Clover Club",
+          "have": [
+            "grenadine",
+            "lemon"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Derby",
+          "have": [
+            "mint",
+            "peach bitters"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Dragonfly",
+          "have": [
+            "ginger ale",
+            "lime"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Dubonnet Cocktail",
+          "have": [
+            "lemon peel"
+          ],
+          "missing": [
+            "bitters",
+            "dubonnet rouge",
+            "gin"
+          ]
+        },
+        {
+          "name": "English Highball",
+          "have": [
+            "brandy",
+            "carbonated water",
+            "lemon peel",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "English Rose Cocktail",
+          "have": [
+            "cherry",
+            "dry vermouth",
+            "grenadine",
+            "lemon juice"
+          ],
+          "missing": [
+            "apricot brandy",
+            "gin"
+          ]
+        },
+        {
+          "name": "Flander's Flake-Out",
+          "have": [],
+          "missing": [
+            "sambuca",
+            "sarsaparilla"
+          ]
+        },
+        {
+          "name": "Flying Dutchman",
+          "have": [
+            "triple sec"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Flying Scotchman",
+          "have": [
+            "scotch",
+            "sugar syrup",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "bitters"
+          ]
+        },
+        {
+          "name": "Foxy Lady",
+          "have": [
+            "amaretto",
+            "light cream"
+          ],
+          "missing": [
+            "creme de cacao"
+          ]
+        },
+        {
+          "name": "French 75",
+          "have": [
+            "lemon juice",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "champagne",
+            "gin",
+            "orange"
+          ]
+        },
+        {
+          "name": "French Connection",
+          "have": [
+            "amaretto"
+          ],
+          "missing": [
+            "cognac"
+          ]
+        },
+        {
+          "name": "Frisco Sour",
+          "have": [
+            "blended whiskey",
+            "lemon",
+            "lime"
+          ],
+          "missing": [
+            "benedictine"
+          ]
+        },
+        {
+          "name": "GG",
+          "have": [
+            "ginger ale",
+            "ice"
+          ],
+          "missing": [
+            "galliano"
+          ]
+        },
+        {
+          "name": "Gin Cooler",
+          "have": [
+            "carbonated water",
+            "lemon peel",
+            "powdered sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange spiral"
+          ]
+        },
+        {
+          "name": "Gin Daisy",
+          "have": [
+            "grenadine",
+            "lemon juice",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange"
+          ]
+        },
+        {
+          "name": "Gin Fizz",
+          "have": [
+            "carbonated water",
+            "lemon",
+            "powdered sugar"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Sling",
+          "have": [
+            "lemon",
+            "orange peel",
+            "powdered sugar",
+            "water"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Smash",
+          "have": [
+            "carbonated water",
+            "cherry",
+            "mint",
+            "sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange"
+          ]
+        },
+        {
+          "name": "Gin Sour",
+          "have": [
+            "lemon juice",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange"
+          ]
+        },
+        {
+          "name": "Gin Squirt",
+          "have": [
+            "carbonated water",
+            "grenadine",
+            "pineapple",
+            "powdered sugar"
+          ],
+          "missing": [
+            "gin",
+            "strawberries"
+          ]
+        },
+        {
+          "name": "Gin Swizzle",
+          "have": [
+            "club soda",
+            "lime juice",
+            "sugar"
+          ],
+          "missing": [
+            "bitters",
+            "gin"
+          ]
+        },
+        {
+          "name": "Gin Toddy",
+          "have": [
+            "lemon peel",
+            "powdered sugar",
+            "water"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Grass Skirt",
+          "have": [
+            "grenadine",
+            "pineapple",
+            "pineapple juice",
+            "triple sec"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Grasshopper",
+          "have": [
+            "light cream"
+          ],
+          "missing": [
+            "creme de cacao",
+            "green creme de menthe"
+          ]
+        },
+        {
+          "name": "Harvey Wallbanger",
+          "have": [
+            "orange juice",
+            "vodka"
+          ],
+          "missing": [
+            "galliano"
+          ]
+        },
+        {
+          "name": "Hawaiian Cocktail",
+          "have": [
+            "pineapple juice",
+            "triple sec"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Hemingway Special",
+          "have": [
+            "lime juice",
+            "maraschino liqueur",
+            "rum"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Horse's Neck",
+          "have": [
+            "brandy",
+            "ginger ale",
+            "lemon peel"
+          ],
+          "missing": [
+            "bitters"
+          ]
+        },
+        {
+          "name": "Ipamena",
+          "have": [
+            "brown sugar",
+            "ginger ale",
+            "ice",
+            "lime"
+          ],
+          "missing": [
+            "passion fruit juice"
+          ]
+        },
+        {
+          "name": "Irish Spring",
+          "have": [
+            "cherry",
+            "irish whiskey",
+            "orange juice",
+            "sweet and sour"
+          ],
+          "missing": [
+            "orange",
+            "peach brandy"
+          ]
+        },
+        {
+          "name": "Jack Rose Cocktail",
+          "have": [
+            "grenadine",
+            "lime"
+          ],
+          "missing": [
+            "apple brandy"
+          ]
+        },
+        {
+          "name": "Japanese Fizz",
+          "have": [
+            "blended whiskey",
+            "carbonated water",
+            "lemon",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg white",
+            "port"
+          ]
+        },
+        {
+          "name": "Jewel Of The Nile",
+          "have": [
+            "green chartreuse"
+          ],
+          "missing": [
+            "gin",
+            "yellow chartreuse"
+          ]
+        },
+        {
+          "name": "John Collins",
+          "have": [
+            "bourbon",
+            "club soda",
+            "lemon juice",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "orange"
+          ]
+        },
+        {
+          "name": "Karsk",
+          "have": [
+            "coffee"
+          ],
+          "missing": [
+            "grain alcohol"
+          ]
+        },
+        {
+          "name": "Kentucky B And B",
+          "have": [
+            "bourbon"
+          ],
+          "missing": [
+            "benedictine"
+          ]
+        },
+        {
+          "name": "Kentucky Colonel",
+          "have": [
+            "bourbon",
+            "lemon peel"
+          ],
+          "missing": [
+            "benedictine"
+          ]
+        },
+        {
+          "name": "Kir",
+          "have": [],
+          "missing": [
+            "champagne",
+            "creme de cassis"
+          ]
+        },
+        {
+          "name": "Kir Royale",
+          "have": [],
+          "missing": [
+            "champagne",
+            "creme de cassis"
+          ]
+        },
+        {
+          "name": "Kiss me Quick",
+          "have": [
+            "apple juice",
+            "ice"
+          ],
+          "missing": [
+            "apfelkorn",
+            "cranberry vodka",
+            "schweppes russchian"
+          ]
+        },
+        {
+          "name": "Kiwi Lemon",
+          "have": [
+            "ice"
+          ],
+          "missing": [
+            "bitter lemon",
+            "kiwi liqueur"
+          ]
+        },
+        {
+          "name": "Lady Love Fizz",
+          "have": [
+            "carbonated water",
+            "lemon",
+            "light cream",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Loch Lomond",
+          "have": [
+            "dry vermouth",
+            "lemon peel",
+            "scotch"
+          ],
+          "missing": [
+            "drambuie"
+          ]
+        },
+        {
+          "name": "London Town",
+          "have": [
+            "maraschino liqueur",
+            "orange bitters"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Lone Tree Cocktail",
+          "have": [
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Lone Tree Cooler",
+          "have": [
+            "carbonated water",
+            "dry vermouth",
+            "lemon peel",
+            "powdered sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange spiral"
+          ]
+        },
+        {
+          "name": "Long Island Iced Tea",
+          "have": [
+            "coca-cola",
+            "lemon peel",
+            "light rum",
+            "tequila",
+            "vodka"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Long Island Tea",
+          "have": [
+            "coca-cola",
+            "lemon",
+            "light rum",
+            "tequila",
+            "vodka"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Long vodka",
+          "have": [
+            "angostura bitters",
+            "ice",
+            "lime",
+            "vodka"
+          ],
+          "missing": [
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Lord And Lady",
+          "have": [
+            "dark rum"
+          ],
+          "missing": [
+            "tia maria"
+          ]
+        },
+        {
+          "name": "Mimosa",
+          "have": [
+            "orange juice"
+          ],
+          "missing": [
+            "champagne"
+          ]
+        },
+        {
+          "name": "Monkey Gland",
+          "have": [
+            "grenadine",
+            "orange juice"
+          ],
+          "missing": [
+            "benedictine",
+            "gin"
+          ]
+        },
+        {
+          "name": "Monkey Wrench",
+          "have": [
+            "light rum"
+          ],
+          "missing": [
+            "bitters",
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "National Aquarium",
+          "have": [
+            "blue curacao",
+            "lemon-lime soda",
+            "rum",
+            "sour mix",
+            "vodka"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Negroni",
+          "have": [
+            "sweet vermouth"
+          ],
+          "missing": [
+            "campari",
+            "gin"
+          ]
+        },
+        {
+          "name": "New York Sour",
+          "have": [
+            "blended whiskey",
+            "cherry",
+            "lemon",
+            "sugar"
+          ],
+          "missing": [
+            "red wine"
+          ]
+        },
+        {
+          "name": "Orange Oasis",
+          "have": [
+            "ginger ale",
+            "orange juice"
+          ],
+          "missing": [
+            "cherry brandy",
+            "gin"
+          ]
+        },
+        {
+          "name": "Oreo Mudslide",
+          "have": [
+            "kahlua",
+            "vodka"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "oreo cookie",
+            "vanilla ice-cream"
+          ]
+        },
+        {
+          "name": "Orgasm",
+          "have": [
+            "amaretto",
+            "light cream",
+            "triple sec",
+            "vodka"
+          ],
+          "missing": [
+            "creme de cacao"
+          ]
+        },
+        {
+          "name": "Owen's Grandmother's Revenge",
+          "have": [
+            "ice",
+            "lemonade",
+            "whiskey"
+          ],
+          "missing": [
+            "beer"
+          ]
+        },
+        {
+          "name": "Paradise",
+          "have": [
+            "orange juice"
+          ],
+          "missing": [
+            "apricot brandy",
+            "gin"
+          ]
+        },
+        {
+          "name": "Pina Colada",
+          "have": [
+            "light rum",
+            "pineapple"
+          ],
+          "missing": [
+            "coconut milk"
+          ]
+        },
+        {
+          "name": "Pink Gin",
+          "have": [],
+          "missing": [
+            "bitters",
+            "gin"
+          ]
+        },
+        {
+          "name": "Pink Lady",
+          "have": [
+            "grenadine",
+            "light cream"
+          ],
+          "missing": [
+            "egg white",
+            "gin"
+          ]
+        },
+        {
+          "name": "Pink Panty Pulldowns",
+          "have": [
+            "sprite",
+            "vodka"
+          ],
+          "missing": [
+            "pink lemonade"
+          ]
+        },
+        {
+          "name": "Poppy Cocktail",
+          "have": [],
+          "missing": [
+            "creme de cacao",
+            "gin"
+          ]
+        },
+        {
+          "name": "Port And Starboard",
+          "have": [
+            "grenadine"
+          ],
+          "missing": [
+            "green creme de menthe"
+          ]
+        },
+        {
+          "name": "Port Wine Cocktail",
+          "have": [
+            "brandy"
+          ],
+          "missing": [
+            "port"
+          ]
+        },
+        {
+          "name": "Port Wine Flip",
+          "have": [
+            "light cream",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg",
+            "nutmeg",
+            "port"
+          ]
+        },
+        {
+          "name": "Porto flip",
+          "have": [
+            "brandy"
+          ],
+          "missing": [
+            "egg yolk",
+            "port"
+          ]
+        },
+        {
+          "name": "Quaker's Cocktail",
+          "have": [
+            "brandy",
+            "lemon",
+            "light rum"
+          ],
+          "missing": [
+            "raspberry syrup"
+          ]
+        },
+        {
+          "name": "Quarter Deck Cocktail",
+          "have": [
+            "light rum",
+            "lime"
+          ],
+          "missing": [
+            "sherry"
+          ]
+        },
+        {
+          "name": "Queen Bee",
+          "have": [],
+          "missing": [
+            "coffee brandy",
+            "lime vodka",
+            "sherry"
+          ]
+        },
+        {
+          "name": "Queen Charlotte",
+          "have": [
+            "grenadine",
+            "lemon-lime soda"
+          ],
+          "missing": [
+            "red wine"
+          ]
+        },
+        {
+          "name": "Queen Elizabeth",
+          "have": [
+            "dry vermouth"
+          ],
+          "missing": [
+            "benedictine",
+            "gin"
+          ]
+        },
+        {
+          "name": "Quentin",
+          "have": [
+            "dark rum",
+            "kahlua",
+            "light cream"
+          ],
+          "missing": [
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "Quick-sand",
+          "have": [
+            "orange juice"
+          ],
+          "missing": [
+            "black sambuca"
+          ]
+        },
+        {
+          "name": "Radioactive Long Island Iced Tea",
+          "have": [
+            "chambord raspberry liqueur",
+            "malibu rum",
+            "midori melon liqueur",
+            "rum",
+            "tequila",
+            "triple sec",
+            "vodka"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Radler",
+          "have": [
+            "7-up"
+          ],
+          "missing": [
+            "beer"
+          ]
+        },
+        {
+          "name": "Rose",
+          "have": [
+            "dry vermouth",
+            "grenadine",
+            "lemon juice",
+            "powdered sugar"
+          ],
+          "missing": [
+            "apricot brandy",
+            "gin"
+          ]
+        },
+        {
+          "name": "Royal Fizz",
+          "have": [
+            "coca-cola",
+            "sweet and sour"
+          ],
+          "missing": [
+            "egg",
+            "gin"
+          ]
+        },
+        {
+          "name": "Royal Gin Fizz",
+          "have": [
+            "carbonated water",
+            "lemon",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg",
+            "gin"
+          ]
+        },
+        {
+          "name": "Rum Cobbler",
+          "have": [
+            "club soda",
+            "dark rum",
+            "lemon",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "orange"
+          ]
+        },
+        {
+          "name": "Rum Milk Punch",
+          "have": [
+            "light rum",
+            "milk",
+            "powdered sugar"
+          ],
+          "missing": [
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "Rum Old-fashioned",
+          "have": [
+            "151 proof rum",
+            "light rum",
+            "lime peel",
+            "powdered sugar",
+            "water"
+          ],
+          "missing": [
+            "bitters"
+          ]
+        },
+        {
+          "name": "Rum Sour",
+          "have": [
+            "lemon juice",
+            "light rum",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "orange"
+          ]
+        },
+        {
+          "name": "Russian Spring Punch",
+          "have": [
+            "lemon juice",
+            "sugar syrup",
+            "vodka"
+          ],
+          "missing": [
+            "creme de cassis"
+          ]
+        },
+        {
+          "name": "Rusty Nail",
+          "have": [
+            "lemon peel",
+            "scotch"
+          ],
+          "missing": [
+            "drambuie"
+          ]
+        },
+        {
+          "name": "Salty Dog",
+          "have": [
+            "salt"
+          ],
+          "missing": [
+            "gin",
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "San Francisco",
+          "have": [
+            "grenadine",
+            "orange juice",
+            "vodka"
+          ],
+          "missing": [
+            "creme de banane"
+          ]
+        },
+        {
+          "name": "Sazerac",
+          "have": [
+            "bourbon",
+            "lemon peel",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "peychaud bitters",
+            "ricard"
+          ]
+        },
+        {
+          "name": "Sea breeze",
+          "have": [
+            "cranberry juice",
+            "vodka"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Sherry Eggnog",
+          "have": [
+            "milk",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg",
+            "nutmeg",
+            "sherry"
+          ]
+        },
+        {
+          "name": "Sherry Flip",
+          "have": [
+            "light cream",
+            "powdered sugar"
+          ],
+          "missing": [
+            "egg",
+            "nutmeg",
+            "sherry"
+          ]
+        },
+        {
+          "name": "Sidecar",
+          "have": [
+            "cointreau",
+            "lemon juice"
+          ],
+          "missing": [
+            "cognac"
+          ]
+        },
+        {
+          "name": "Snowball",
+          "have": [
+            "ice",
+            "lemon",
+            "lemonade"
+          ],
+          "missing": [
+            "advocaat"
+          ]
+        },
+        {
+          "name": "Sol Y Sombra",
+          "have": [
+            "brandy"
+          ],
+          "missing": [
+            "anisette"
+          ]
+        },
+        {
+          "name": "Spritz",
+          "have": [
+            "soda water"
+          ],
+          "missing": [
+            "campari",
+            "prosecco"
+          ]
+        },
+        {
+          "name": "Stinger",
+          "have": [
+            "brandy"
+          ],
+          "missing": [
+            "white creme de menthe"
+          ]
+        },
+        {
+          "name": "Stone Sour",
+          "have": [
+            "orange juice",
+            "sweet and sour"
+          ],
+          "missing": [
+            "apricot brandy"
+          ]
+        },
+        {
+          "name": "Tequila Fizz",
+          "have": [
+            "ginger ale",
+            "grenadine",
+            "lemon juice",
+            "tequila"
+          ],
+          "missing": [
+            "egg white"
+          ]
+        },
+        {
+          "name": "Thriller",
+          "have": [
+            "orange juice",
+            "scotch"
+          ],
+          "missing": [
+            "wine"
+          ]
+        },
+        {
+          "name": "Tom Collins",
+          "have": [
+            "club soda",
+            "lemon juice",
+            "maraschino cherry",
+            "sugar"
+          ],
+          "missing": [
+            "gin",
+            "orange"
+          ]
+        },
+        {
+          "name": "Turf Cocktail",
+          "have": [
+            "dry vermouth",
+            "orange peel"
+          ],
+          "missing": [
+            "anis",
+            "bitters",
+            "gin"
+          ]
+        },
+        {
+          "name": "Tuxedo Cocktail",
+          "have": [
+            "cherry",
+            "dry vermouth",
+            "maraschino liqueur",
+            "orange bitters"
+          ],
+          "missing": [
+            "anis",
+            "gin"
+          ]
+        },
+        {
+          "name": "Valencia Cocktail",
+          "have": [
+            "orange bitters",
+            "orange juice"
+          ],
+          "missing": [
+            "apricot brandy"
+          ]
+        },
+        {
+          "name": "Vampiro",
+          "have": [
+            "lime juice",
+            "orange juice",
+            "salt",
+            "sugar syrup",
+            "tequila"
+          ],
+          "missing": [
+            "tomato juice"
+          ]
+        },
+        {
+          "name": "Vermouth Cassis",
+          "have": [
+            "carbonated water",
+            "dry vermouth"
+          ],
+          "missing": [
+            "creme de cassis"
+          ]
+        },
+        {
+          "name": "Vesuvio",
+          "have": [
+            "lemon",
+            "light rum",
+            "powdered sugar",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "egg white"
+          ]
+        },
+        {
+          "name": "Veteran",
+          "have": [
+            "dark rum"
+          ],
+          "missing": [
+            "cherry brandy"
+          ]
+        },
+        {
+          "name": "Victor",
+          "have": [
+            "brandy",
+            "sweet vermouth"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Victory Collins",
+          "have": [
+            "lemon juice",
+            "powdered sugar",
+            "vodka"
+          ],
+          "missing": [
+            "grape juice",
+            "orange"
+          ]
+        },
+        {
+          "name": "Vodka And Tonic",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "tonic water"
+          ]
+        },
+        {
+          "name": "Vodka Russian",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "schweppes russchian"
+          ]
+        },
+        {
+          "name": "Waikiki Beachcomber",
+          "have": [
+            "pineapple juice",
+            "triple sec"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Whisky Mac",
+          "have": [
+            "scotch"
+          ],
+          "missing": [
+            "wine"
+          ]
+        },
+        {
+          "name": "White Lady",
+          "have": [
+            "lemon juice",
+            "triple sec"
+          ],
+          "missing": [
+            "gin"
+          ]
+        },
+        {
+          "name": "Zenmeister",
+          "have": [],
+          "missing": [
+            "jägermeister",
+            "root beer"
+          ]
+        },
+        {
+          "name": "Zima Blaster",
+          "have": [
+            "chambord raspberry liqueur"
+          ],
+          "missing": [
+            "zima"
+          ]
+        }
+      ],
+      "Other / Unknown": [
+        {
+          "name": "Apello",
+          "have": [
+            "apple juice",
+            "maraschino cherry",
+            "orange juice"
+          ],
+          "missing": [
+            "grapefruit juice"
+          ]
+        },
+        {
+          "name": "Egg Cream",
+          "have": [
+            "milk",
+            "soda water"
+          ],
+          "missing": [
+            "chocolate syrup"
+          ]
+        },
+        {
+          "name": "Fruit Cooler",
+          "have": [
+            "apple juice",
+            "ice",
+            "lemon",
+            "soda water",
+            "sugar"
+          ],
+          "missing": [
+            "apple",
+            "strawberries"
+          ]
+        },
+        {
+          "name": "Fruit Flip-Flop",
+          "have": [],
+          "missing": [
+            "fruit juice",
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Fruit Shake",
+          "have": [
+            "ice",
+            "orange juice"
+          ],
+          "missing": [
+            "banana",
+            "fruit",
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Kill the cold Smoothie",
+          "have": [
+            "lemon",
+            "water"
+          ],
+          "missing": [
+            "ginger"
+          ]
+        },
+        {
+          "name": "Kiwi Papaya Smoothie",
+          "have": [],
+          "missing": [
+            "kiwi",
+            "papaya"
+          ]
+        },
+        {
+          "name": "Lassi - A South Indian Drink",
+          "have": [
+            "mint",
+            "salt",
+            "water"
+          ],
+          "missing": [
+            "cumin seed",
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Lassi - Mango",
+          "have": [
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "mango",
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Lassi - Sweet",
+          "have": [
+            "lemon juice",
+            "salt",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Lassi Khara",
+          "have": [
+            "salt",
+            "water"
+          ],
+          "missing": [
+            "asafoetida",
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Lassi Raita",
+          "have": [
+            "ice",
+            "lime",
+            "salt",
+            "sugar"
+          ],
+          "missing": [
+            "yoghurt"
+          ]
+        },
+        {
+          "name": "Lemouroudji",
+          "have": [
+            "lemon",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "cayenne pepper",
+            "ginger"
+          ]
+        },
+        {
+          "name": "Pineapple Gingerale Smoothie",
+          "have": [
+            "pineapple"
+          ],
+          "missing": [
+            "ginger"
+          ]
+        },
+        {
+          "name": "Tomato Tang",
+          "have": [
+            "lemon juice"
+          ],
+          "missing": [
+            "celery salt",
+            "tomato juice"
+          ]
+        },
+        {
+          "name": "Vodka Fizz",
+          "have": [
+            "half-and-half",
+            "ice",
+            "limeade",
+            "vodka"
+          ],
+          "missing": [
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "Whitecap Margarita",
+          "have": [
+            "ice",
+            "lime juice",
+            "tequila"
+          ],
+          "missing": [
+            "cream of coconut"
+          ]
+        },
+        {
+          "name": "Yoghurt Cooler",
+          "have": [
+            "ice"
+          ],
+          "missing": [
+            "fruit",
+            "yoghurt"
+          ]
+        }
+      ],
+      "Punch / Party Drink": [
+        {
+          "name": "Brain Fart",
+          "have": [
+            "lemon juice",
+            "mountain dew",
+            "rum",
+            "vodka"
+          ],
+          "missing": [
+            "everclear",
+            "surge"
+          ]
+        },
+        {
+          "name": "Cranberry Punch",
+          "have": [
+            "cranberry juice",
+            "ginger ale",
+            "pineapple juice",
+            "sugar"
+          ],
+          "missing": [
+            "almond flavoring"
+          ]
+        },
+        {
+          "name": "Downshift",
+          "have": [
+            "151 proof rum",
+            "sprite",
+            "tequila"
+          ],
+          "missing": [
+            "fruit punch"
+          ]
+        },
+        {
+          "name": "Egg Nog - Healthy",
+          "have": [
+            "milk",
+            "rum",
+            "sugar",
+            "vanilla extract"
+          ],
+          "missing": [
+            "condensed milk",
+            "egg",
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "Egg Nog #4",
+          "have": [
+            "bourbon",
+            "light rum",
+            "milk",
+            "salt",
+            "sugar",
+            "vanilla extract"
+          ],
+          "missing": [
+            "egg white",
+            "egg yolk",
+            "nutmeg",
+            "whipping cream"
+          ]
+        },
+        {
+          "name": "Egg-Nog - Classic Cooked",
+          "have": [
+            "milk",
+            "salt",
+            "sugar",
+            "vanilla extract"
+          ],
+          "missing": [
+            "egg"
+          ]
+        },
+        {
+          "name": "Gluehwein",
+          "have": [
+            "cinnamon",
+            "lemon peel",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "cloves",
+            "red wine"
+          ]
+        },
+        {
+          "name": "Halloween Punch",
+          "have": [
+            "cherry juice",
+            "orange peel",
+            "red chili flakes",
+            "vodka"
+          ],
+          "missing": [
+            "cloves",
+            "ginger"
+          ]
+        },
+        {
+          "name": "Holloween Punch",
+          "have": [
+            "carbonated soft drink"
+          ],
+          "missing": [
+            "grape juice",
+            "sherbet"
+          ]
+        },
+        {
+          "name": "Mulled Wine",
+          "have": [
+            "brandy",
+            "cinnamon",
+            "lemon peel",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "cloves",
+            "red wine"
+          ]
+        },
+        {
+          "name": "Pink Penocha",
+          "have": [
+            "cranberry juice",
+            "orange juice",
+            "peach schnapps",
+            "vodka"
+          ],
+          "missing": [
+            "everclear"
+          ]
+        },
+        {
+          "name": "Rum Punch",
+          "have": [
+            "ginger ale",
+            "ice",
+            "orange juice",
+            "rum"
+          ],
+          "missing": [
+            "fruit punch"
+          ]
+        },
+        {
+          "name": "Rum Runner",
+          "have": [
+            "cranberry juice",
+            "malibu rum",
+            "orange juice",
+            "pineapple juice"
+          ],
+          "missing": [
+            "blackberry brandy"
+          ]
+        },
+        {
+          "name": "Sangria",
+          "have": [
+            "cinnamon",
+            "lemon juice",
+            "orange juice",
+            "sugar"
+          ],
+          "missing": [
+            "cloves",
+            "red wine"
+          ]
+        },
+        {
+          "name": "Smut",
+          "have": [
+            "orange juice",
+            "peach schnapps",
+            "pepsi cola"
+          ],
+          "missing": [
+            "red wine"
+          ]
+        },
+        {
+          "name": "Sweet Sangria",
+          "have": [
+            "fresca",
+            "lemon",
+            "lime",
+            "sugar",
+            "water"
+          ],
+          "missing": [
+            "apple",
+            "orange",
+            "red wine"
+          ]
+        },
+        {
+          "name": "White Wine Sangria",
+          "have": [
+            "lemon",
+            "lime",
+            "soda water"
+          ],
+          "missing": [
+            "apple",
+            "apple brandy",
+            "strawberries",
+            "white wine"
+          ]
+        },
+        {
+          "name": "Wine Cooler",
+          "have": [
+            "ice",
+            "lemon-lime soda"
+          ],
+          "missing": [
+            "red wine"
+          ]
+        },
+        {
+          "name": "Wine Punch",
+          "have": [
+            "lemon",
+            "orange juice",
+            "pineapple juice"
+          ],
+          "missing": [
+            "orange",
+            "red wine"
+          ]
+        },
+        {
+          "name": "Zimadori Zinger",
+          "have": [
+            "midori melon liqueur"
+          ],
+          "missing": [
+            "zima"
+          ]
+        }
+      ],
+      "Shake": [
+        {
+          "name": "Baby Eskimo",
+          "have": [
+            "kahlua",
+            "milk"
+          ],
+          "missing": [
+            "vanilla ice-cream"
+          ]
+        },
+        {
+          "name": "Just a Moonmint",
+          "have": [
+            "milk",
+            "mint syrup"
+          ],
+          "missing": [
+            "chocolate syrup"
+          ]
+        },
+        {
+          "name": "Nutty Irishman",
+          "have": [
+            "milk"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "frangelico"
+          ]
+        },
+        {
+          "name": "Sweet Bananas",
+          "have": [
+            "honey",
+            "milk"
+          ],
+          "missing": [
+            "banana"
+          ]
+        },
+        {
+          "name": "Sweet Tooth",
+          "have": [
+            "milk"
+          ],
+          "missing": [
+            "godiva liqueur"
+          ]
+        },
+        {
+          "name": "Texas Sling",
+          "have": [
+            "151 proof rum",
+            "amaretto",
+            "cream",
+            "kahlua"
+          ],
+          "missing": [
+            "irish cream"
+          ]
+        }
+      ],
+      "Shot": [
+        {
+          "name": "ABC",
+          "have": [
+            "amaretto"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "cognac"
+          ]
+        },
+        {
+          "name": "B-52",
+          "have": [
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "grand marnier"
+          ]
+        },
+        {
+          "name": "B-53",
+          "have": [
+            "kahlua"
+          ],
+          "missing": [
+            "grand marnier",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "Big Red",
+          "have": [],
+          "missing": [
+            "goldschlager",
+            "irish cream"
+          ]
+        },
+        {
+          "name": "Bob Marley",
+          "have": [
+            "midori melon liqueur"
+          ],
+          "missing": [
+            "goldschlager",
+            "jägermeister"
+          ]
+        },
+        {
+          "name": "Bubble Gum",
+          "have": [
+            "orange juice",
+            "peach schnapps",
+            "vodka"
+          ],
+          "missing": [
+            "banana liqueur"
+          ]
+        },
+        {
+          "name": "Bumble Bee",
+          "have": [
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "Chocolate Milk",
+          "have": [
+            "amaretto",
+            "milk"
+          ],
+          "missing": [
+            "chocolate liqueur"
+          ]
+        },
+        {
+          "name": "Damned if you do",
+          "have": [
+            "whiskey"
+          ],
+          "missing": [
+            "hot damn"
+          ]
+        },
+        {
+          "name": "Dirty Nipple",
+          "have": [
+            "kahlua"
+          ],
+          "missing": [
+            "baileys irish cream",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "Fahrenheit 5000",
+          "have": [
+            "tabasco sauce"
+          ],
+          "missing": [
+            "absolut peppar",
+            "firewater"
+          ]
+        },
+        {
+          "name": "Flaming Dr. Pepper",
+          "have": [
+            "151 proof rum",
+            "amaretto",
+            "dr. pepper",
+            "vodka"
+          ],
+          "missing": [
+            "beer"
+          ]
+        },
+        {
+          "name": "Freddy Kruger",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "jägermeister",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "Jam Donut",
+          "have": [
+            "chambord raspberry liqueur",
+            "sugar",
+            "sugar syrup"
+          ],
+          "missing": [
+            "baileys irish cream"
+          ]
+        },
+        {
+          "name": "Jello shots",
+          "have": [
+            "vodka",
+            "water"
+          ],
+          "missing": [
+            "jello"
+          ]
+        },
+        {
+          "name": "Jelly Bean",
+          "have": [],
+          "missing": [
+            "anis",
+            "blackberry brandy"
+          ]
+        },
+        {
+          "name": "Kool First Aid",
+          "have": [
+            "151 proof rum"
+          ],
+          "missing": [
+            "kool-aid"
+          ]
+        },
+        {
+          "name": "Kool-Aid Shot",
+          "have": [
+            "amaretto",
+            "cranberry juice",
+            "triple sec",
+            "vodka"
+          ],
+          "missing": [
+            "sloe gin"
+          ]
+        },
+        {
+          "name": "Kool-Aid Slammer",
+          "have": [
+            "vodka"
+          ],
+          "missing": [
+            "kool-aid"
+          ]
+        },
+        {
+          "name": "Lemon Shot",
+          "have": [
+            "151 proof rum",
+            "lemon",
+            "sugar"
+          ],
+          "missing": [
+            "absolut citron",
+            "galliano"
+          ]
+        },
+        {
+          "name": "Quick F**K",
+          "have": [
+            "kahlua",
+            "midori melon liqueur"
+          ],
+          "missing": [
+            "baileys irish cream"
+          ]
+        },
+        {
+          "name": "Royal Bitch",
+          "have": [
+            "crown royal"
+          ],
+          "missing": [
+            "frangelico"
+          ]
+        },
+        {
+          "name": "Texas Rattlesnake",
+          "have": [
+            "southern comfort",
+            "sweet and sour"
+          ],
+          "missing": [
+            "cherry brandy",
+            "yukon jack"
+          ]
+        }
+      ],
+      "Soft Drink": [
+        {
+          "name": "Citrus Coke",
+          "have": [
+            "coca-cola"
+          ],
+          "missing": [
+            "bacardi limon"
+          ]
+        },
+        {
+          "name": "Darkwood Sling",
+          "have": [
+            "ice",
+            "orange juice",
+            "soda water"
+          ],
+          "missing": [
+            "cherry heering"
+          ]
+        },
+        {
+          "name": "Zambeer",
+          "have": [
+            "ice"
+          ],
+          "missing": [
+            "root beer",
+            "sambuca"
+          ]
+        },
+        {
+          "name": "Zinger",
+          "have": [
+            "peachtree schnapps"
+          ],
+          "missing": [
+            "surge"
+          ]
+        },
+        {
+          "name": "Zoksel",
+          "have": [
+            "7-up",
+            "coca-cola",
+            "lemon",
+            "lemonade"
+          ],
+          "missing": [
+            "beer",
+            "creme de cassis",
+            "root beer"
+          ]
+        }
+      ]
+    }
+  }
+}
