@@ -1,8 +1,7 @@
 # IBA Cocktails
 
-This project compiles International Bartenders Association's (IBA) [official
-cocktail recipes](http://iba-world.com/iba-cocktails/) into machine readable
-format, suitable to be embedded into applications.
+This project is based on final_cocktails.csv from https://www.kaggle.com/datasets/aadyasingh55/cocktails, version 1, updated Oct 22, 2024.
+
 
 ## Web app
 
@@ -23,6 +22,9 @@ Then open [http://localhost:8080](http://localhost:8080).
 Use **Copy JSON** to copy your selected ingredients and match results as JSON
 for manual saving.
 
+A new **Populate from my_drinks.json** button lets you load a local `my_drinks.json`
+file and prefill selected ingredients automatically.
+
 ## App structure
 
 - `index.html` – the single-page frontend and entry point.
@@ -32,15 +34,5 @@ for manual saving.
 - `final_cocktails.csv` – full recipe dataset loaded by the app at startup.
 - `final_cocktails_head.csv` – sample CSV head used for testing or lightweight preview.
 
-The app now initializes from `final_cocktails.csv` and does not depend on
-`ingredients.json`/`recipes.json` at runtime.
-
-## Followup work
-
-Prompt:
-
-```Analyze index.html, and the js dir. Right now, it reads ingredients.json and recipes.json. Instead, It should init from final_cocktails.csv
-```
-
-Note: `final_cocktails_head.csv` is a sample head to not blow up the AI context. The app now initializes from `final_cocktails.csv`.
-
+The app starts by loading `final_cocktails.csv` and does not depend on any
+JSON recipe files at runtime.

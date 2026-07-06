@@ -253,6 +253,33 @@ async function copyResultsJson() {
   jsonFallback.select();
 }
 
+async function populateFromMyDrinks() {
+  try {
+    const resp = await fetch("./my_drinks.json");
+    if (!resp.ok) {
+      throw new Error("Failed to load my_drinks.json");
+    }
+
+    const data = await resp.json();
+    const ingredients = Array.isArray(data?.selectedIngredients) ? data.selectedIngredients : [];
+
+    selectedIngredients = new Set(
+      ingredients
+        .filter(Boolean)
+        .map((ingredient) => String(ingredient).trim().toLowerCase())
+        .filter((ingredient) => catalog.includes(ingredient)),
+    );
+
+    renderIngredientForm();
+    renderResults();
+  } catch (error) {
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      `<p class="error-message">Failed to populate from my_drinks.json: ${error.message}</p>`,
+    );
+  }
+}
+
 function wireControls() {
   document.getElementById("select-all").addEventListener("click", () => {
     selectedIngredients = new Set(catalog);
@@ -266,6 +293,7 @@ function wireControls() {
     renderResults();
   });
 
+  document.getElementById("populate-my-drinks").addEventListener("click", populateFromMyDrinks);
   copyButton.addEventListener("click", copyResultsJson);
 }
 
