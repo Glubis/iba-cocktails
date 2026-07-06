@@ -35,7 +35,7 @@ function titleCase(text) {
 function matchAlias(text) {
   for (const rule of ALIAS_RULES) {
     if (rule.pattern.test(text)) {
-      return rule.name;
+      return rule.name.toLowerCase();
     }
   }
   return null;
@@ -58,18 +58,18 @@ function extractFallback(text) {
   if (!cleaned) {
     return null;
   }
-  return titleCase(cleaned);
+  return cleaned.toLowerCase();
 }
 
 export function parseSpecialIngredient(specialText, catalogSortedByLength) {
   const aliasMatch = matchAlias(specialText);
   if (aliasMatch) {
-    return aliasMatch;
+    return aliasMatch.toLowerCase();
   }
 
   const catalogMatch = matchCatalog(specialText, catalogSortedByLength);
   if (catalogMatch) {
-    return catalogMatch;
+    return catalogMatch.toLowerCase();
   }
 
   return extractFallback(specialText);
@@ -102,14 +102,14 @@ export function buildCatalog(baseIngredients, recipes) {
   for (const recipe of recipes) {
     for (const entry of recipe.ingredients) {
       if (entry.ingredient) {
-        catalog.add(entry.ingredient);
+        catalog.add(String(entry.ingredient).trim().toLowerCase());
         continue;
       }
 
       if (entry.special) {
         const parsed = parseSpecialIngredient(entry.special, catalogSortedByLength);
         if (parsed) {
-          catalog.add(parsed);
+          catalog.add(String(parsed).trim().toLowerCase());
         }
       }
     }

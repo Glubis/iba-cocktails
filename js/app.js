@@ -6,6 +6,22 @@ import {
 
 const UNCategorized = "Uncategorized";
 
+function titleCase(text) {
+  return String(text)
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
+}
+
+function formatIngredientEntry(entry) {
+  const label = titleCase(entry.name);
+  if (!entry.measure || entry.measure.toLowerCase() === "none") {
+    return label;
+  }
+  return `${label} (${entry.measure})`;
+}
+
 let recipes = [];
 let catalog = [];
 let catalogByLength = [];
@@ -22,10 +38,26 @@ function getCategory(recipe) {
   return recipe.category || UNCategorized;
 }
 
+function getRecipeIngredientMeasure(recipe, ingredient) {
+  const entry = recipe.ingredients.find((item) => item.ingredient === ingredient);
+  return entry?.measure || "";
+}
+
 function classifyRecipe(recipe) {
   const required = getRecipeIngredients(recipe, catalogByLength);
-  const have = required.filter((ingredient) => selectedIngredients.has(ingredient));
-  const missing = required.filter((ingredient) => !selectedIngredients.has(ingredient));
+  const have = required
+    .filter((ingredient) => selectedIngredients.has(ingredient))
+    .map((ingredient) => ({
+      name: ingredient,
+      measure: getRecipeIngredientMeasure(recipe, ingredient),
+    }));
+
+  const missing = required
+    .filter((ingredient) => !selectedIngredients.has(ingredient))
+    .map((ingredient) => ({
+      name: ingredient,
+      measure: getRecipeIngredientMeasure(recipe, ingredient),
+    }));
 
   return {
     name: recipe.name,
@@ -76,15 +108,15 @@ function computeResults() {
   for (const { category, entries } of groupByCategory(missing)) {
     missingIngredients[category] = entries.map(({ name, have, missing: missingItems }) => ({
       name,
-      have,
-      missing: missingItems,
+      have: have.map((item) => item.name),
+      missing: missingItems.map((item) => item.name),
     }));
   }
 
   return {
     readyToMake,
     missingIngredients,
-    readyGroups: groupByCategory(ready, (item) => item.name),
+    readyGroups: groupByCategory(ready),
     missingGroups: groupByCategory(missing),
   };
 }
@@ -117,12 +149,25 @@ function renderCategoryList(container, groups, renderItem) {
   }
 }
 
+function renderIngredientSublist(items) {
+  const list = document.createElement("ul");
+  for (const entry of items) {
+    const listItem = document.createElement("li");
+    listItem.textContent = formatIngredientEntry(entry);
+    list.appendChild(listItem);
+  }
+  return list;
+}
+
 function renderResults() {
   lastResults = computeResults();
 
-  renderCategoryList(readySection, lastResults.readyGroups, (name) => {
+  renderCategoryList(readySection, lastResults.readyGroups, (entry) => {
     const item = document.createElement("li");
-    item.textContent = name;
+    item.textContent = entry.name;
+
+    const ingredientList = renderIngredientSublist(entry.have);
+    item.appendChild(ingredientList);
     return item;
   });
 
@@ -134,11 +179,13 @@ function renderResults() {
     sublist.className = "ingredient-status";
 
     const haveItem = document.createElement("li");
-    haveItem.textContent = `Have: ${entry.have.length ? entry.have.join(", ") : "None"}`;
+    haveItem.textContent = "Have:";
+    haveItem.appendChild(entry.have.length ? renderIngredientSublist(entry.have) : document.createTextNode(" None"));
     sublist.appendChild(haveItem);
 
     const missingItem = document.createElement("li");
-    missingItem.textContent = `Missing: ${entry.missing.join(", ")}`;
+    missingItem.textContent = "Missing:";
+    missingItem.appendChild(entry.missing.length ? renderIngredientSublist(entry.missing) : document.createTextNode(" None"));
     sublist.appendChild(missingItem);
 
     item.appendChild(sublist);
@@ -167,7 +214,7 @@ function renderIngredientForm() {
     });
 
     label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(ingredient));
+    label.appendChild(document.createTextNode(titleCase(ingredient)));
     ingredientsForm.appendChild(label);
   }
 }
@@ -279,23 +326,29 @@ function parseCsvText(csvText) {
   return rows;
 }
 
-function parseListField(raw) {
+function parseListField(raw, { preserveCase = false } = {}) {
   if (!raw) return [];
   const cleaned = raw.trim();
 
   if (cleaned.startsWith("[") && cleaned.endsWith("]")) {
     try {
-      return JSON.parse(cleaned.replace(/'/g, '"'));
+      return JSON.parse(cleaned.replace(/'/g, '"')).map((item) => {
+        const value = String(item).trim();
+        return preserveCase ? value : value.toLowerCase();
+      });
     } catch (e) {
       const inside = cleaned.replace(/^\[|\]$/g, "");
       return inside
         .split(/,(?![^\[]*\])/) 
-        .map((s) => s.replace(/^\s*'?|"?|'?\s*$|"?$/g, "").trim())
+        .map((s) => {
+          const value = s.replace(/^\s*'?|"?|'?\s*$|"?$/g, "").trim();
+          return preserveCase ? value : value.toLowerCase();
+        })
         .filter(Boolean);
     }
   }
 
-  return [cleaned];
+  return [preserveCase ? cleaned : cleaned.toLowerCase()];
 }
 
 async function init() {
@@ -322,14 +375,19 @@ async function init() {
 
   recipes = mappedRows.map((row) => {
     const ingList = parseListField(row.ingredients);
+    const measureList = parseListField(row.ingredientMeasures, { preserveCase: true });
+
     for (const i of ingList) {
-      allIngredients.add(i.trim());
+      allIngredients.add(String(i).trim().toLowerCase());
     }
 
     return {
       name: row.name,
       category: row.category || undefined,
-      ingredients: ingList.map((n) => ({ ingredient: n.trim() })),
+      ingredients: ingList.map((n, index) => ({
+        ingredient: String(n).trim().toLowerCase(),
+        measure: String(measureList[index] ?? "").trim(),
+      })),
       garnish: row.garnish || undefined,
       preparation: row.instructions || row.preparation || undefined,
     };

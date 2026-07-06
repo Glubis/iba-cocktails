@@ -23,6 +23,18 @@ Then open [http://localhost:8080](http://localhost:8080).
 Use **Copy JSON** to copy your selected ingredients and match results as JSON
 for manual saving.
 
+## App structure
+
+- `index.html` – the single-page frontend and entry point.
+- `css/style.css` – layout and styling for the ingredient grid, results, and controls.
+- `js/app.js` – application logic, CSV loading, ingredient selection, and result rendering.
+- `js/normalize.js` – ingredient normalization and recipe ingredient parsing helpers.
+- `final_cocktails.csv` – full recipe dataset loaded by the app at startup.
+- `final_cocktails_head.csv` – sample CSV head used for testing or lightweight preview.
+
+The app now initializes from `final_cocktails.csv` and does not depend on
+`ingredients.json`/`recipes.json` at runtime.
+
 ## Followup work
 
 Prompt:
